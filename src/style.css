@@ -1,0 +1,119 @@
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c9f9ff;
+  border-radius: 0.3em;
+  width: 90%;
+  margin-bottom: 1%;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+nav {
+  width: 50%;
+  color: #c9f9ff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2%;
+  margin-bottom: 1%;
+}
+
+.container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.tile {
+  border: 1px #6f7d8c solid;
+  width: 20%;
+  height: 20%;
+}
+
+.end {
+  display: none;
+  width: 85%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.win {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #32021f;
+  color: #c9f9ff;
+  border-radius: 1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.btn {
+  margin-left: 1em;
+}
+
+button {
+  background-color: #32021f;
+  color: #c9f9ff;
+  border-radius: 1em;
+  padding: 0.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+button:hover {
+  background-color: #c9f9ff;
+  color: #32021f;
+  font-weight: bold;
+}
+
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+.violet {
+  background-color: violet;
+}
+.green {
+  background-color: green;
+}
+.pink {
+  background-color: pink;
+}
+.grey {
+  background-color: grey;
+}
+.beige {
+  background-color: beige;
+}
+.yellow {
+  background-color: yellow;
+}
+
+.not-revealed {
+  background-color: #000;
+}
