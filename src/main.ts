@@ -87,7 +87,7 @@ function init(){
       }
       else {
         setTimeout(() => {
-          last?.classList.toggle(last.getAttribute("color"));
+          last?.classList.toggle(last.getAttribute("color") || "");
           last?.classList.toggle("not-revealed");
           tile.classList.toggle(colors[Math.floor(i/2)]);
           tile.classList.toggle("not-revealed");
